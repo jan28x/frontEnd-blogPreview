@@ -6,3 +6,106 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+html, body, #container {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+#cardGraphic {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+#info {
+    text-align: left;
+    margin: 5%;
+}
+
+#subject {
+    text-align: center;
+    margin: -2% 5%;
+    width: 22%;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+
+#info h1 {
+    font-size: 24px;
+    font-family: 'Figtree Extra Bold', Figtree, sans-serif;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+#info a:link, #info a:visited, #info a:active {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+}
+
+#info a:hover {
+    color: hsl(47, 88%, 63%);
+    text-decoration: none;
+}
+
+#subject h2 {
+    font-size: 14px;
+    font-family: 'Figtree Extra Bold', Figtree, sans-serif;
+    font-weight: 800;
+    padding: 7px;
+    color: hsl(0, 0%, 7%);
+}
+
+#info h3 {
+    font-size: 14px;
+    font-family: 'Figtree Medium', Figtree, sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+
+main p {
+    font-size: 16px;
+    font-family: 'Figtree Medium', Figtree, sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+    color: hsl(0, 0%, 42%);
+}
+
+#author {
+    font-size: 14px;
+    font-family: 'Figtree Extra Bold', Figtree, sans-serif;
+    font-weight: 800;
+    margin: 5%;
+}
+
+#author img {
+    width: 35px;
+    height: auto;
+    display: inline-block;
+}
+
+#author p {
+    margin: 0 2%;
+    vertical-align: 90%;
+    display: inline-block;
+    color: hsl(0, 0%, 7%);
+}
